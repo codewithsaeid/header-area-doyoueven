@@ -10,50 +10,87 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/mp.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 
 <body>
-       <!-- Navbar Start -->
-       <div class="navbar-fixed">
-        <nav class="nav-wrapper grey darken-4">
-                <a href="#" class="brand-logo"><img src="img/logo_main_large.png" class="responsive-img" style="width:240px;" alt=""></a>
-                <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                    <i class="material-icons">menu</i>
-                </a>
-                <ul class="right hide-on-med-and-down">
-                    <!-- <li><a class="waves-effect waves-light btn">Sign in</a></li> -->
-                    <!-- start -->
+    <!-- navbar-topbar start -->
 
+    <header>
 
-                    <li><a href="" data-target="signin" class="btn modal-trigger  mr10">Sign in</a></li>
-                    <!-- end -->
-                    <li><a href="" data-target="signup" class="btn modal-trigger">Sign up</a></li>
+        <div class="top-navbar row">
+            <div class="col s6">
+                <ul class="hide-on-med-and-down top-navbar-left ml10">
+                    <li><a href="sass.html">ABOUT US</a></li>
+                    <li><a href="badges.html">SUPPORT</li>
+                    <li><a href="collapsible.html">CONTACT US</a></li>
                 </ul>
-                <ul class="right hide-on-med-and-down">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="notice.html">Notice</a></li>
+            </div>
+            <div class="col s6">
+                <ul class="right  top-navbar-right right">
+                    <!-- <li><a href="#"><i class="material-icons">search</i></a></li> -->
+                    <li><a href="#"><img src="img/search.png" alt="" style="width: 18px;"></a></li>
+                    <!-- <li><a href="#"><i class="material-icons">view_module</i></a></li> -->
+                    <li><a href="#"><img src="img/user.png" alt="" style="width: 18px;"></a></li>
+                    <!-- <li><a href="#"><i class="material-icons">refresh</i></a></li> -->
+                    <!-- <li><a href="#"><img src="img/" alt=""></a></li> -->
+                    <li><a href="#"><i class="material-icons mr10" style="font-size:22px">favorite_border</i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar-topbar end -->
+    <!-- Navbar Start -->
+    <div class="navbar-fixed">
+        <nav class="nav-wrapper z-depth-1 row blue-text text-darken-2 grey-text text-darken-4 white">
+
+            <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                <i class="material-icons text-red" style="color:bluel;">menu</i>
+            </a>
+
+            <div class="col s3"><a href="#" class="brand-logo pl10 mt7"><img src="img/logo_main_large.png" class="responsive-img"
+                        style="max-height: 40px;" alt=""></a></div>
+            <div class="col s6 navbar-menu-area">
+                <ul class="hide-on-med-and-down">
+                    <li class=""><a href="index.html">ALL</a></li>
+                    <li><a href="about.html">NEW RELEASES</a></li>
+                    <li><a href="contact.html">MENS</a></li>
+                    <li><a href="notice.html">WOMENS</a></li>
+                    <li><a href="notice.html">ACCESSORIES</a></li>
+                    <li><a href="notice.html">SALE</a></li>
+                    <li><a href="notice.html">BLOG</a></li>
 
                 </ul>
+            </div>
+            <div class="col s3 right ">
+                <ul class="right">
+                    <!-- <li><i class="material-icons">add_shopping_cart</i></li> -->
+                    <li><img src="img/cart.png" alt="" class="mt10 mr10"></li>
 
+                </ul>
+            </div>
 
         </nav>
     </div>
 
     <ul class="sidenav" id="mobile-links">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a class="waves-effect waves-light btn">Sign in</a></li>
-        <li><a class="waves-effect waves-light btn">Sign up</a></li>
+        <li class=""><a href="index.html">ALL</a></li>
+        <li><a href="about.html">NEW RELEASES</a></li>
+        <li><a href="contact.html">MENS</a></li>
+        <li><a href="notice.html">WOMENS</a></li>
+        <li><a href="notice.html">ACCESSORIES</a></li>
+        <li><a href="notice.html">SALE</a></li>
+        <li><a href="notice.html">BLOG</a></li>
     </ul>
 
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="/js/materialize.min.js"></script>
-  <!-- Custom JavaScript -->
-  <script src="/js/main.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/js/materialize.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="/js/main.js"></script>
 </body>
 
 </html>

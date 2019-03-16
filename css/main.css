@@ -1,0 +1,51 @@
+body, input, textarea, button, select {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.navbar-menu-area ul {
+    text-align: center;
+}
+
+.navbar-menu-area ul li {
+    display: inline;
+    float: none;
+
+}
+
+.navbar-menu-area ul li a {
+    display: inline-block;
+    color: black;
+    font-size: 12px;
+}
+
+
+
+.top-navbar ul {
+    margin: 5px 0px;
+}
+
+.top-navbar ul li {
+    display: inline-block;
+    
+}
+
+.top-navbar ul li a {
+    font-size: 10px;
+    display: block;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    color: black;
+    /* padding: 10px 12px; */
+}
+.top-navbar ul li i {
+    font-size: 10px;
+}
+.top-navbar-right ul  li{
+    float: right;
+}
+
+nav .sidenav-trigger i {
+    color: black;
+}

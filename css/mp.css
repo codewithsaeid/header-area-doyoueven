@@ -351,8 +351,27 @@
     margin-top: 5px !important
 }
 
+.mt6 {
+    margin-top: 6px !important
+}
+
+.mt7 {
+    margin-top: 7px !important
+}
+
+.mt8 {
+    margin-top: 8px !important
+}
+
+.mt9 {
+    margin-top: 9px !important
+}
+
 .mt10 {
     margin-top: 10px !important
+}
+.mt15 {
+    margin-top: 15px !important
 }
 
 .mt20 {
@@ -539,6 +558,9 @@
 .mr10 {
     margin-right: 10px !important
 }
+.mr15 {
+    margin-right: 15px !important
+}
 
 .mr20 {
     margin-right: 20px !important
@@ -573,13 +595,13 @@
 }
 
 .mr100 {
-    margin-right: 100px;
+    margin-right: 100px !important;
 }
 
 .mr110 {
-    margin-right: 110px;
+    margin-right: 110px !important;
 }
 
 .row {
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
 }
