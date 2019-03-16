@@ -49,3 +49,33 @@ body, input, textarea, button, select {
 nav .sidenav-trigger i {
     color: black;
 }
+@media (max-width: 991px){
+    .mobile_menu_toggle {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    display: inline-block;
+}   
+    .mobile_menu_toggle i {
+    height: 1px !important;
+    width: 20px;
+    background-color: #000;
+    position: absolute;
+    transition: .3s;
+    -webkit-transition: .3s;
+    left: 0;
+}
+.mobile_menu_toggle i:nth-child(2) {
+    top: 10px;
+    opacity: 1;
+    width: 10px;
+    left: 5px;
+}
+
+.mobile_menu_toggle i:last-child {
+    top: 17px;
+}
+.mobile_menu_toggle i:first-child {
+    top: 3px;
+}
+}
