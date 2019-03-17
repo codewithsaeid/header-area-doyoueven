@@ -79,3 +79,7 @@ nav .sidenav-trigger i {
     top: 3px;
 }
 }
+/* topnav hiding */
+.nav-up {
+    top: -40px;
+}
