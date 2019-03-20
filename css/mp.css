@@ -601,7 +601,12 @@
 .mr110 {
     margin-right: 110px !important;
 }
+/**/
+.py15{
+    padding:15px 0px!important;
+}
 
 .row {
     margin-bottom: 0px !important;
 }
+

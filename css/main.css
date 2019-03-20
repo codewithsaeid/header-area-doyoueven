@@ -1,3 +1,6 @@
+html {
+    line-height: 0;
+}
 body, input, textarea, button, select {
     font-family: 'Raleway', sans-serif;
     font-size: 12px;
@@ -82,4 +85,10 @@ nav .sidenav-trigger i {
 /* topnav hiding */
 .nav-up {
     top: -40px;
+}
+/* cartmenu */
+#cartmenu{
+    position: fixed;
+    width: 300px;
+    right: 0;
 }

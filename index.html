@@ -13,12 +13,15 @@
     <link rel="stylesheet" href="css/mp.css">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+
 </head>
 
 <body>
     <!-- navbar-topbar start -->
 
-    <header class="navbar-fixed">
+    <header>
 
         <div class="top-navbar row">
             <div class="col s6">
@@ -30,70 +33,164 @@
             </div>
             <div class="col s6">
                 <ul class="right  top-navbar-right right">
-                    <!-- <li><a href="#"><i class="material-icons">search</i></a></li> -->
                     <li class="hide-on-small-only"><a href="#"><img src="img/search.png" alt="" style="width: 18px;"></a></li>
-                    <!-- <li><a href="#"><i class="material-icons">view_module</i></a></li> -->
                     <li><a href="#"><img src="img/user.png" alt="" style="width: 18px;"></a></li>
-                    <!-- <li><a href="#"><i class="material-icons">refresh</i></a></li> -->
-                    <!-- <li><a href="#"><img src="img/" alt=""></a></li> -->
-                    <li><a href="#"><i class="material-icons mr10" style="font-size:22px">favorite_border</i></a></li>
                 </ul>
             </div>
         </div>
 
 
-    <!-- navbar-topbar end -->
-    <!-- Navbar Start -->
-    <div class=" ">
-        <nav class="nav-wrapper z-depth-1 row blue-text text-darken-2 grey-text text-darken-4 white">
+        <!-- navbar-topbar end -->
+        <!-- Navbar Start -->
+        <div class="navbar-fixed">
+            <nav class="nav-wrapper row blue-text text-darken-2 grey-text text-darken-4 white" style="border: 1px solid rgba(0,0,0,0.1);box-shadow:none;">
 
-            <a href="#" class="sidenav-trigger" data-target="mobile-links">
-                <span class="mobile_menu_toggle"> <i></i> <i></i> <i></i> </span>
-            </a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <span class="mobile_menu_toggle"><i></i> <i></i> <i></i></span>
+                </a>
 
-            <div class="col s3 m2"><a href="#" class="brand-logo pl10 mt7"><img src="img/logo_main_large.png" class="responsive-img"
-                        style="max-height: 40px;" alt=""></a></div>
-            <div class="col s6 m9 navbar-menu-area">
-                <ul class="hide-on-med-and-down">
-                    <li><a href="index.html">ALL</a></li>
-                    <li><a href="about.html">NEW RELEASES</a></li>
-                    <li><a href="contact.html">MENS</a></li>
-                    <li><a href="notice.html">WOMENS</a></li>
-                    <li><a href="notice.html">ACCESSORIES</a></li>
-                    <li><a href="notice.html">SALE</a></li>
-                    <li><a href="notice.html">BLOG</a></li>
+                <div class="col s3 m2"><a href="#" class="brand-logo pl10 mt7"><img src="img/logo_main_large.png" class="responsive-img"
+                            style="max-height: 40px;" alt=""></a></div>
+                <div class="col s6 m9 navbar-menu-area">
+                    <ul class="hide-on-med-and-down">
+                        <li><a href="index.html">ALL</a></li>
+                        <li><a href="about.html">NEW RELEASES</a></li>
+                        <li><a href="contact.html">MENS</a></li>
+                        <li><a href="notice.html">WOMENS</a></li>
+                        <li><a href="notice.html">ACCESSORIES</a></li>
+                        <li><a href="notice.html">SALE</a></li>
+                        <li><a href="notice.html">BLOG</a></li>
 
-                </ul>
+                    </ul>
+                </div>
+                <div class="col s3 m1 right ">
+                    <ul class="right">
+                        <li><img src="img/cart.png" alt="" class="mt10 mr10"></li>
+
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+        <!-- cart menu -->
+
+        <!-- <ul class="sidenav right" id="cartmenu">
+            <li class=""><a href="index.html">ALL</a></li>
+            <li><a href="about.html">NEW RELEASES</a></li>
+            <li><a href="contact.html">MENS</a></li>
+            <li><a href="notice.html">WOMENS</a></li>
+            <li><a href="notice.html">ACCESSORIES</a></li>
+            <li><a href="notice.html">SALE</a></li>
+            <li><a href="notice.html">BLOG</a></li>
+        </ul> -->
+        <!-- Mobile menu  -->
+        <ul class="sidenav" id="mobile-links">
+            <li class=""><a href="index.html">ALL</a></li>
+            <li><a href="about.html">NEW RELEASES</a></li>
+            <li><a href="contact.html">MENS</a></li>
+            <li><a href="notice.html">WOMENS</a></li>
+            <li><a href="notice.html">ACCESSORIES</a></li>
+            <li><a href="notice.html">SALE</a></li>
+            <li><a href="notice.html">BLOG</a></li>
+        </ul>
+    </header>
+    <!--text Slider area start -->
+    <div class="slider">
+        <ul class="slides grey lighten-5 center-align z-depth-1">
+            <li>
+                <p class="py15"><b>FREE SHIPPING</b> on ALL INTERNATIONAL orders <b> OVER $150 AUD </b></p>
+            </li>
+            <li>
+                <p class="py15"><b>FREE EXPRESS</b> shipping on ALL Australian Orders 🇦🇺</p>
+            </li>
+
+            <!-- controller -->
+            <div class="col s12 center">
+                <button class="text-next z-depth-0 btn white btn-flat center"> <i class=" medium material-icons " style="position: absolute;top: 14%;left: 0px;font-size: 50px; z-index: 999;">chevron_left</i></button>
+                <button class="text-prev z-depth-0 btn white btn-flat center"> <i class="material-icons medium" style="position: absolute;top: 14%;right: 0px;font-size: 50px; cursor: pointer;z-index: 999;">chevron_right</i></i></button>
             </div>
-            <div class="col s3 m1 right ">
-                <ul class="right">
-                    <!-- <li><i class="material-icons">add_shopping_cart</i></li> -->
-                    <li><img src="img/cart.png" alt="" class="mt10 mr10"></li>
+        </ul>
+    </div>
+    <!--text Slider  area end -->
 
-                </ul>
-            </div>
+    <!--img Slider area start -->
+    <div class="carousel carousel-slider" style="height:719px;">
+        <a class="carousel-item" href="#one!"><img class="responsive-img" src="img/home/Air_WebsiteBanner-4.jpg"></a>
+        <a class="carousel-item" href="#two!"><img class="responsive-img" src="img/home/ImpactRestock_WebsiteBanner3.jpg"></a>
+        <!-- controller -->
+        <div class="col s12 center">
+            <button class="next z-depth-0 btn white btn-flat center"> <i class=" medium material-icons " style="position: absolute;top: 50%;left: 0px;font-size: 50px;">chevron_left</i></button>
+            <button class="prev z-depth-0 btn white btn-flat center"> <i class="material-icons medium" style="position: absolute;top: 50%;right: 0px;font-size: 50px;">chevron_right</i></i></button>
+        </div>
+    </div>
+    <!--img Slider  area end -->
 
-        </nav>
+
+    <div class="row">
+        <div class="col s12 m12 l6 no-padding responsive-img" style="overflow:hidden">
+            <img src="img/home/AthleticRange_SquareBanner2.jpg" style="height: 675px;">
+        </div>
+        <div class="col s12 m12 l6 no-padding responsive-img" style="overflow:hidden">
+            <img src="img/home/CoreTracksuit_SquareBanner1.jpg" style="height: 675px;">
+        </div>
     </div>
 
-    <ul class="sidenav" id="mobile-links">
-        <li class=""><a href="index.html">ALL</a></li>
-        <li><a href="about.html">NEW RELEASES</a></li>
-        <li><a href="contact.html">MENS</a></li>
-        <li><a href="notice.html">WOMENS</a></li>
-        <li><a href="notice.html">ACCESSORIES</a></li>
-        <li><a href="notice.html">SALE</a></li>
-        <li><a href="notice.html">BLOG</a></li>
-    </ul>
-</header>
-    <!-- Slider area start -->
-
-    <div class="carousel carousel-slider" style="height:900px;">
-        <a class="carousel-item" href="#one!"><img src="img/home/Air_WebsiteBanner-4.jpg"></a>
-        <a class="carousel-item" href="#two!"><img src="img/home/ImpactRestock_WebsiteBanner3.jpg"></a>
-        
+    <!-- next -->
+    <div class="row">
+        <div class="col s12 m12 l12 no-padding responsive-img" style="overflow:hidden">
+            <img src="img/home/ImpactSeamless_WebsiteBanner2-1.jpg" style="height: 100%; width: 100%;">
+        </div>
     </div>
-    <!-- Slider area end -->
+    <!-- next -->
+    <div class="row">
+        <div class="col s12 m12 l12 no-padding responsive-img" style="overflow:hidden">
+            <img src="img/home/ImpactSeamless_WebsiteBannerSTUDENT.jpg" style="height: 100%; width: 100%;">
+        </div>
+    </div>
+    <!-- next -->
+    
+    <!-- footer -->
+    <footer class="page-footer white">
+        <div class="container">
+            <div class="row">
+                <div class="col l6">
+                    <img src="img/home/payment-icon.png" alt="" class="responsive-img" style="max-height: 80px;">
+                    <img src="img/home/dhl-footer.png" alt=""  class="responsive-img">
+                </div>
+                <div class="col s3">
+                    <h5 class="black-text">Links</h5>
+                    <ul>
+                        <li><a class="black-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col s3">
+                    <h5 class="black-text">Links</h5>
+                    <ul>
+                        <li><a class="black-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="black-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+               
+            </div>
+        </div>
+        <div class="footer-copyright white">
+            <div class="container center-align black-text text-lighten-4 ">
+                <b>LEAVE YOUR MARK.</b>
+            </div>
+        </div>
+        <div class="footer-copyright white z-depth-1">
+            <div class="container center-align black-text text-lighten-4 ">
+                Copyright © 2019. 
+                <a class=" black-text text-lighten-4  " href="#!">DOYOUEVEN.</a>
+            </div>
+        </div>
+    </footer>
+
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
