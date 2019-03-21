@@ -19,7 +19,8 @@ $(window).scroll(function () {
 /**slider */
 
 $('.carousel.carousel-slider').carousel({
-  fullWidth: true
+  fullWidth: true,
+  interval: 200
 });
 $('.next').click(function () {
   $('.carousel.carousel-slider').carousel('next');

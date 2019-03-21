@@ -113,7 +113,7 @@ nav .sidenav-trigger i {
 .product-card {
     position: relative;
     display: inline-block;
-    margin: 50px;
+    /* margin: 50px; */
 }
 
 .product-card .img-top {
@@ -131,10 +131,10 @@ nav .sidenav-trigger i {
 .product-title {
     position: absolute;
     left: 10px;
-    bottom: 10px;
+    bottom: 15px;
     z-index: 999;
     color: #fff;
-    padding: 16px 12px;
+    padding: 8px 12px;
     background: rgba(0, 0, 0, 0.2);
     width: calc(100% - 20px);
     text-transform: uppercase;
@@ -147,3 +147,25 @@ nav .sidenav-trigger i {
     visibility: visible;
     opacity: 1;
 }
+
+a.card-title.center-align.product-title:hover {
+    background: rgba(0,0,0,0.8);
+}
+
+/**/
+.breadcrumb {
+    font-size: 12px;
+}
+
+.breadcrumb:before {
+    color: black;
+    font-size: 12px;
+    margin: 0;
+}
+
+/**Product page sidebar*/
+.sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10%;
+  }

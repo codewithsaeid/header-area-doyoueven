@@ -370,6 +370,7 @@
 .mt10 {
     margin-top: 10px !important
 }
+
 .mt15 {
     margin-top: 15px !important
 }
@@ -558,6 +559,7 @@
 .mr10 {
     margin-right: 10px !important
 }
+
 .mr15 {
     margin-right: 15px !important
 }
@@ -601,12 +603,17 @@
 .mr110 {
     margin-right: 110px !important;
 }
+
 /**/
-.py15{
-    padding:15px 0px!important;
+.py15 {
+    padding: 15px 0px !important;
+}
+
+/**/
+.px45 {
+    padding: 0px 45px !important;
 }
 
 .row {
     margin-bottom: 0px !important;
 }
-
