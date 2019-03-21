@@ -1,0 +1,53 @@
+/* html {
+    line-height: 0;
+} */
+
+body,
+input,
+textarea,
+button,
+select {
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/*start**/
+.product-card {
+    position: relative;
+    display: inline-block;
+    margin: 50px;
+}
+
+.product-card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.product-card:hover .img-top {
+    display: inline;
+}
+
+.product-title {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    z-index: 999;
+    color: #fff;
+    padding: 16px 12px;
+    background: rgba(0, 0, 0, 0.2);
+    width: calc(100% - 20px);
+    text-transform: uppercase;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s all;
+}
+
+.product-card:hover .product-title {
+    visibility: visible;
+    opacity: 1;
+}
+/*end*/

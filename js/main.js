@@ -44,3 +44,7 @@ $('.text-prev').click(function(e){
   e.stopPropagation();
   $('.slider').slider('prev');
 });
+
+/**** */
+
+
