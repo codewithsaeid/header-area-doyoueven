@@ -169,3 +169,12 @@ a.card-title.center-align.product-title:hover {
     position: sticky;
     top: 10%;
   }
+  /**footer area*/
+  .footer-social img{
+    height: 20px;
+    width: 20px;
+  }
+
+  ul.footer-social li {
+    display: inline-block;
+}
