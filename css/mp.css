@@ -493,8 +493,12 @@
     margin-left: 0 !important;
 }
 
+.ml3 {
+    margin-left: 3px !important;
+}
+
 .ml5 {
-    margin-left: 5 !important;
+    margin-left: 5px !important;
 }
 
 .ml10 {
@@ -553,7 +557,7 @@
 }
 
 .mr5 {
-    margin-left: 5px !important
+    margin-right: 5px !important
 }
 
 .mr10 {
@@ -602,18 +606,4 @@
 
 .mr110 {
     margin-right: 110px !important;
-}
-
-/**/
-.py15 {
-    padding: 15px 0px !important;
-}
-
-/**/
-.px45 {
-    padding: 0px 45px !important;
-}
-
-.row {
-    margin-bottom: 0px !important;
 }

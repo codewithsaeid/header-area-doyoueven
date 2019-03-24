@@ -1,0 +1,79 @@
+
+.product-size span {
+    display: inline-block;
+    padding: 8px;
+    font-size: 10px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    min-width: 45px;
+    transition: 0.4s all;
+}
+
+.product-size .active {
+
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.product-size span:hover {
+    border-color: #000;
+}
+
+.quantity-adjust span{
+    border: 1px solid #eee;
+    text-align: center;
+    font-size: 24px;
+    color: #ccc;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 15px;
+}
+.quantity-adjust .quantity{
+    border-right: 0;
+    border-left: 0;
+    font-size: 12px;
+}
+/***/
+.qtyAdjust .adjust:hover {
+    color: #000;
+    border-color: #000;
+}
+.qtyAdjust .adjust {
+    border: 1px solid #eee;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    top: 0;
+    left: 0;
+    font-size: 24px;
+    line-height: 35px;
+    color: #ccc;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.qtyAdjust .quantity {
+    background: no-repeat;
+    height: 40px;
+    width: 60px!important;
+    text-align: center;
+    border-right: 0;
+    border-left: 0;
+    border-color: #eee;
+
+}
+.qtyAdjust.quantity, .qtyAdjust.quantity, input[type=text]{
+    border-bottom: none!important;
+}
+.qtyAdjust.quantity, input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: none!important;
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+}

@@ -149,17 +149,17 @@ nav .sidenav-trigger i {
 }
 
 a.card-title.center-align.product-title:hover {
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
 }
 
 /**/
 .breadcrumb {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .breadcrumb:before {
     color: black;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
 }
 
@@ -168,13 +168,30 @@ a.card-title.center-align.product-title:hover {
     position: -webkit-sticky;
     position: sticky;
     top: 10%;
-  }
-  /**footer area*/
-  .footer-social img{
+}
+
+/**footer area*/
+.footer-social img {
     height: 20px;
     width: 20px;
-  }
+}
 
-  ul.footer-social li {
+ul.footer-social li {
     display: inline-block;
 }
+
+
+/***start**/
+
+.py15 {
+    padding: 15px 0px !important;
+}
+.px45 {
+    padding: 0px 45px !important;
+}
+
+.row {
+    margin-bottom: 0px !important;
+}
+
+/***end**/
