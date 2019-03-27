@@ -35,7 +35,8 @@
             </div>
             <div class="col s6">
                 <ul class="right  top-navbar-right right">
-                    <li class="hide-on-small-only"><a href="#"><img src="./img/search.png" alt="" style="width: 18px;"></a></li>
+                    <li class="hide-on-small-only"><a href="#"><img src="./img/search.png" alt=""
+                                style="width: 18px;"></a></li>
                     <li><a href="#"><img src="./img/user.png" alt="" style="width: 18px;"></a></li>
                 </ul>
             </div>
@@ -43,19 +44,31 @@
 
 
         <!-- navbar-topbar end -->
+
+
+
+
+
+
+
+
         <!-- Navbar Start -->
         <div class="navbar-fixed">
-            <nav class="nav-wrapper row blue-text text-darken-2 grey-text text-darken-4 white" style="border: 1px solid rgba(0,0,0,0.1);box-shadow:none;">
+            <nav class="nav-wrapper row blue-text text-darken-2 grey-text text-darken-4 white"
+                style="border: 1px solid rgba(0,0,0,0.1);box-shadow:none;">
 
                 <a href="#" class="sidenav-trigger" data-target="mobile-links">
                     <span class="mobile_menu_toggle"><i></i> <i></i> <i></i></span>
                 </a>
 
-                <div class="col s3 m2"><a href="#" class="brand-logo pl10 mt7"><img src="./img/logo_main_large.png" class="responsive-img"
-                            style="max-height: 40px;" alt=""></a></div>
-                <div class="col s6 m9 navbar-menu-area">
+                <div class="col s2 l3"><a href="#" class="brand-logo pl10 mt7"><img src="./img/logo_main_large.png"
+                            class="responsive-img" style="max-height: 40px;" alt=""></a></div>
+                <div class="col s8 l8 navbar-menu-area">
                     <ul class="hide-on-med-and-down">
                         <li><a href="index.html">ALL</a></li>
+
+
+
                         <li><a href="about.html">NEW RELEASES</a></li>
                         <li><a href="contact.html">MENS</a></li>
                         <li><a href="notice.html">WOMENS</a></li>
@@ -65,29 +78,42 @@
 
                     </ul>
                 </div>
-                <div class="col s3 m1 right ">
-                    <ul class="right">
-                        <li><img src="./img/cart.png" alt="" class="mt10 mr10"></li>
 
-                    </ul>
+
+                <div class="col s1 l1 p0 right">
+                    <a href="#" data-target="sidenav-2" class="sidenav-trigger show-on-medium-and-up right"
+                        style="display:block;"><img class="mt10 " src="./img/cart.png" alt=""></a>
+
+                    <!-- RIGHT SIDEBAR	 -->
                 </div>
+
 
             </nav>
         </div>
         <!-- cart menu -->
 
-        <!-- <ul class="sidenav right" id="cartmenu">
-            <li class=""><a href="index.html">ALL</a></li>
-            <li><a href="about.html">NEW RELEASES</a></li>
-            <li><a href="contact.html">MENS</a></li>
-            <li><a href="notice.html">WOMENS</a></li>
-            <li><a href="notice.html">ACCESSORIES</a></li>
-            <li><a href="notice.html">SALE</a></li>
-            <li><a href="notice.html">BLOG</a></li>
-        </ul> -->
+        <ul id="sidenav-2" class="sidenav">
+            <li><a class="subheader" style="text-align:center;border-bottom:1px solid">Your cart</a></li>
+            <!-- <li><a href="#" target="_blank" style="background:black;color:#fff;">You only have $150.00 AUD left to <br>spend to receive FREE SHIPPING.</a></li> -->
+            <div>
+                <li class="black white-text">
+                    <a href="#" target="_blank" class="white-text"
+                        style="text-align:center;font-size:12px; line-height: 24px;">You only have $150.00 AUD left to
+                        spend to receive FREE SHIPPING.</a>
+                </li>
+
+            </div>
+            <li><a href="#" target="_blank" style="text-align:center;font-size:10px;">You have no items in your shopping
+                    cart.</a></li>
+        </ul>
         <!-- Mobile menu  -->
         <ul class="sidenav" id="mobile-links">
-            <li class=""><a href="index.html">ALL</a></li>
+            <li class="">
+                <div class="search-wrapper">
+                    <input id="search" placeholder="Search" autocomplete="off"><i class="material-icons">search</i>
+                    <div class="search-results"></div>
+                </div>
+            </li>
             <li><a href="about.html">NEW RELEASES</a></li>
             <li><a href="contact.html">MENS</a></li>
             <li><a href="notice.html">WOMENS</a></li>
@@ -108,8 +134,10 @@
 
             <!-- controller -->
             <div class="col s12 center">
-                <button class="text-next z-depth-0 btn white btn-flat center"> <i class=" medium material-icons " style="position: absolute;top: 14%;left: 0px;font-size: 50px; z-index: 999;">chevron_left</i></button>
-                <button class="text-prev z-depth-0 btn white btn-flat center"> <i class="material-icons medium" style="position: absolute;top: 14%;right: 0px;font-size: 50px; cursor: pointer;z-index: 999;">chevron_right</i></i></button>
+                <button class="text-next z-depth-0 btn white btn-flat center"> <i class=" medium material-icons "
+                        style="position: absolute;top: 14%;left: 0px;font-size: 50px; z-index: 995;">chevron_left</i></button>
+                <button class="text-prev z-depth-0 btn white btn-flat center"> <i class="material-icons medium"
+                        style="position: absolute;top: 14%;right: 0px;font-size: 50px; cursor: pointer;z-index: 995;">chevron_right</i></i></button>
             </div>
         </ul>
     </div>
@@ -118,11 +146,14 @@
     <!--img Slider area start -->
     <div class="carousel carousel-slider" style="height:719px;">
         <a class="carousel-item" href="#one!"><img class="responsive-img" src="img/home/Air_WebsiteBanner-4.jpg"></a>
-        <a class="carousel-item" href="#two!"><img class="responsive-img" src="img/home/ImpactRestock_WebsiteBanner3.jpg"></a>
+        <a class="carousel-item" href="#two!"><img class="responsive-img"
+                src="img/home/ImpactRestock_WebsiteBanner3.jpg"></a>
         <!-- controller -->
         <div class="col s12 center">
-            <button class="next z-depth-0 btn white btn-flat center"> <i class=" medium material-icons " style="position: absolute;top: 50%;left: 0px;font-size: 50px;">chevron_left</i></button>
-            <button class="prev z-depth-0 btn white btn-flat center"> <i class="material-icons medium" style="position: absolute;top: 50%;right: 0px;font-size: 50px;">chevron_right</i></i></button>
+            <button class="next z-depth-0 btn white btn-flat center"> <i class=" medium material-icons "
+                    style="position: absolute;top: 50%;left: 0px;font-size: 50px;">chevron_left</i></button>
+            <button class="prev z-depth-0 btn white btn-flat center"> <i class="material-icons medium"
+                    style="position: absolute;top: 50%;right: 0px;font-size: 50px;; ">chevron_right</i></i></button>
         </div>
     </div>
     <!--img Slider  area end -->
@@ -150,24 +181,13 @@
         </div>
     </div>
     <!-- next -->
-    <!-- <div class="row">
-        <div class="col s12 m12 l12 no-padding responsive-img center-align" style="overflow:hidden">
-            <img src="./img/home/email-icon_80x.png">
-            <h3>JOIN THE TEAM</h3>
-            <p>Get the news straight from DoyouevenHQ - new releases, restocks and special offers!</p>
-            <div class="subscribe-area flexbox">
-                <input value="" placeholder="Your email" name="EMAIL" id="Email" type="email">
-                <input class="btn" name="subscribe" id="subscribe" value="Subscribe" type="submit">
-            </div>
-        </div>
-    </div> -->
     <!-- footer -->
     <footer class="page-footer white">
         <div class="container">
             <div class="row">
                 <div class="col l6">
                     <img src="img/home/payment-icon.png" alt="" class="responsive-img" style="max-height: 80px;">
-                    <img src="img/home/dhl-footer.png" alt=""  class="responsive-img">
+                    <img src="img/home/dhl-footer.png" alt="" class="responsive-img">
                 </div>
                 <div class="col s3">
                     <h5 class="black-text">Links</h5>
@@ -187,7 +207,7 @@
                         <li><a class="black-text text-lighten-3" href="#!">Link 4</a></li>
                     </ul>
                 </div>
-               
+
             </div>
         </div>
         <div class="footer-copyright white">
@@ -197,14 +217,14 @@
         </div>
         <div class="footer-copyright white z-depth-1">
             <div class="container center-align black-text text-lighten-4 ">
-                Copyright © 2019. 
+                Copyright © 2019.
                 <a class=" black-text text-lighten-4  " href="#!">DOYOUEVEN.</a>
             </div>
         </div>
     </footer>
 
- 
-            <!-- <div class="card-image product-card" >
+
+    <!-- <div class="card-image product-card" >
                 <img src="img/home/AthleticRange_SquareBanner2.jpg" class="responsive-img"alt="Card Back">
                 <img src="img/home/CoreTracksuit_SquareBanner1.jpg" class="img-top responsive-img" alt="Card Front">
               

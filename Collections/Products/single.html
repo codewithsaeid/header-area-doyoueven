@@ -12,6 +12,7 @@
     <!-- css -->
     <link rel="stylesheet" href="../../css/materialize.min.css">
     <link rel="stylesheet" href="../../css/mp.css">
+    <!-- <link rel="stylesheet" href="../../css/margin-padding.min.css"> -->
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="single.css">
 
@@ -142,11 +143,11 @@
                         <img src="../../img/Singleproduct/44A3251-1_1200x@2x.jpg" class="responsive-img pb5" alt=""
                             style="height: 610px;">
                     </div>
-                   
-                   
+
+
                 </div>
             </div>
-            <div class="col s4 pl5">
+            <div class="col s4 pl50 sticky-cart-area">
                 <span class="center-align" style="display:block;">TEE</span>
                 <h5 class="center-align" style="font-weight: bold;">PHANTOM ATHLETIC TEE - AQUAMARINE BLUE</h5>
                 <h6 class="center-align">$45.00 AUD</h6>
@@ -179,18 +180,55 @@
                 <div class="row center m10"><span class="center-align"
                         style="display:inline-block;font-size: 10px;">QUANTITY</span>
                 </div>
-                <!-- <div class="quantity-adjust row center-align">
-                        <span>-</span>
-                        <span class="black-text quantity">1</span>
-                      
-                        <span>-</span>
-                </div> -->
-                <div class="qtyAdjust">
+
+                <div class="qtyAdjust row center-align">
                     <span class="adjust minus">-</span>
                     <input type="text" min="1" size="2" class="quantity" name="quantity" id="quantity" value="1"
                         max="3">
                     <span class="adjust plus">+</span>
                 </div>
+                <div class="row center-align ">
+                    <div class="col l10 p0"> <a class="waves-effect waves-light btn-large black"
+                            style="width: 314px;;">Add to cart</a></div>
+                    <div class="col l2 p0" style="border: 1px solid black;cursor: pointer;">
+                        <i class="far fa-heart small p11 cart-favourite-first" ></i>
+                        <i class="fas fa-heart small p11 cart-favourite-last" style="display:none;"></i>
+                    </div>
+
+
+                    <!-- <i class="fas fa-heart"></i> -->
+                </div>
+
+
+                <!-- asdgfas -->
+                <div class="row">
+                    <article>
+                        <div>
+                            <p style="text-align:center;">The Phantom Athletic Tee delivers exceptional comfort and
+                                breathability through its polyester/spandex blend. The blend allows the fabric to move
+                                and contort with your body, giving you increased mobility and freedom to move. The
+                                fabric also features an ultra-lightweight layer of tiny perforated holes to increase
+                                airflow - keeping you cool whilst wicking away sweat from your body.</p><a
+                                style="display:block;text-align:center;" class="read-more-show hide" href="#">Read
+                                More</a>
+                            <p style="text-align:center;" class="read-more-content">These are a definite staple for
+                                those who take their sweat sessions seriously! <b
+                                    style="display:block;text-align:center;">MATERIAL</b> <a class="read-more-hide hide"
+                                    href="#">Read Less</a></p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="cart-social-area pt15 pb15" style="text-align:center;border-top: 1px solid #eee;
+                border-bottom: 1px solid #eee;">
+                    <b style="font-size: 10px;color: #999;">SHARE WITH:</b>
+                    <i class="fab fa-facebook small"></i>
+                    <i class="fab fa-twitter small"></i>
+                    <i class="fab fa-pinterest small"></i>
+                    <i class="fab fa-google-plus small"></i>
+                </div>
+
+                <!-- asdfa -->
             </div>
         </div>
     </div>
@@ -201,7 +239,50 @@
 
 
 
+    <!-- suggetion area start -->
+    <div class="row pl50 pr50">
+        <h3 class="center" style="font-size:18px;font-size: 16px;font-weight: 600;">YOU MAY ALSO LIKE</h3>
+        <div class="col l3 mb20 p5">
+            <div class="card-image">
+                <img src="../../img/home/AthleticRange_SquareBanner2.jpg" class="responsive-img" alt="Card Back">
+                <a class="card-title center-align product-title" href="#">Card Title</a>
+            </div>
+            <b style="text-align: center;display: block;">Tie-Back Tank - Lavender</b>
+            <span style="text-align: center;display: block;">$34.95 AUD</span>
+        </div>
+        <div class="col l3 mb20 p5">
+            <div class="card-image ">
+                <img src="../../img/home/AthleticRange_SquareBanner2.jpg" class="responsive-img" alt="Card Back">
 
+                <a class="card-title center-align product-title" href="#">Card Title</a>
+            </div>
+            <b style="text-align: center;display: block;">Tie-Back Tank - Lavender</b>
+            <span style="text-align: center;display: block;">$34.95 AUD</span>
+        </div>
+        <div class="col l3 mb20 p5">
+            <div class="card-image ">
+                <img src="../../img/home/AthleticRange_SquareBanner2.jpg" class="responsive-img" alt="Card Back">
+
+
+                <a class="card-title center-align product-title" href="#">Card Title</a>
+            </div>
+            <b style="text-align: center;display: block;">Tie-Back Tank - Lavender</b>
+            <span style="text-align: center;display: block;">$34.95 AUD</span>
+        </div>
+        <div class="col l3 mb20 p5">
+            <div class="card-image ">
+                <img src="../../img/home/AthleticRange_SquareBanner2.jpg" class="responsive-img" alt="Card Back">
+
+                <a class="card-title center-align product-title" href="#">Card Title</a>
+            </div>
+            <b style="text-align: center;display: block;">Tie-Back Tank - Lavender</b>
+            <span style="text-align: center;display: block;">$34.95 AUD</span>
+        </div>
+
+
+    </div>
+
+    <!-- suggetion area end -->
 
 
 
@@ -267,6 +348,9 @@
     <script src="../../js/materialize.min.js"></script>
     <!-- Custom JavaScript -->
     <script src="../../js/main.js"></script>
+    <script type="text/javascript">
+   
+    </script>
 </body>
 
 </html>

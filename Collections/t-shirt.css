@@ -50,3 +50,27 @@ a.card-title.center-align.product-title:hover {
     position: sticky;
     top: 10%;
   }
+
+
+
+  /*****/
+.product-size span {
+    display: inline-block;
+    padding: 8px;
+    font-size: 10px;
+    border: 1px solid #999;
+    cursor: pointer;
+    min-width: 45px;
+    transition: 0.4s all;
+}
+
+.product-size .active {
+
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+.product-size span:hover {
+    border-color: #000;
+}

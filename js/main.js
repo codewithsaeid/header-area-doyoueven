@@ -3,9 +3,9 @@ $(document).ready(function () {
   $('.sidenav').sidenav();
 });
 /** cart nav */
-// $(document).ready(function () {
-//     $('.cartmenu').sidenav();
-// });
+$(document).ready(function(){
+	$('#sidenav-2').sidenav({ edge: 'right' });
+});
 
 /** hiding topbar */
 
@@ -47,5 +47,48 @@ $('.text-prev').click(function(e){
 });
 
 /**** */
+// Readmore option
+$('.read-more-content').addClass('hide')
+$('.read-more-show, .read-more-hide').removeClass('hide')
+
+$('.read-more-show').on('click', function(e) {
+  $(this).next('.read-more-content').removeClass('hide');
+  $(this).addClass('hide');
+  e.preventDefault();
+});
+
+$('.read-more-hide').on('click', function(e) {
+  var p = $(this).parent('.read-more-content');
+  p.addClass('hide');
+  p.prev('.read-more-show').removeClass('hide'); 
+  e.preventDefault();
+});
+
+/****cart favorite start*/
+
+$(function () {
+  $('.cart-favourite-first').click(function () {
+      $('.cart-favourite-last').show();
+      $('.cart-favourite-first').hide();
+  });
+
+  $('.cart-favourite-last').click(function () {
+      $('.cart-favourite-last').hide();
+      $('.cart-favourite-first').show();
+  });
+});
 
 
+/****cart favorite end*/
+// quick card option start
+
+$(function () {
+  $('.product-title').click(function () {
+      $('.quick-cart-option').show();
+  });
+
+  $('.quick-option-close').click(function () {
+      $('.quick-cart-option').hide();
+  });
+});
+// quick card option end
