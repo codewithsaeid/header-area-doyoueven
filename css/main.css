@@ -12,6 +12,40 @@ select {
     font-weight: 400;
     letter-spacing: 1px;
 }
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+h1{
+
+}
+h2{
+    font-size: 30px;
+}
+h4{
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+
+}
+a{
+    font-size: 12px;
+}
+input[type="text"]:focus, input[type="tel"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="search"]:focus {
+    border-color: #000;
+}
+.button, button, input[type="submit"], input[type="button"] {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    border: 0;
+    padding: 11px 28px;
+    transition: 0.4s all;
+    -webkit-transition: 0.4s all;
+    cursor: pointer;
+    outline: none !important;
+}
+
 
 .navbar-menu-area ul {
     text-align: center;
@@ -174,7 +208,28 @@ a.card-title.center-align.product-title:hover {
     position: sticky;
     top: 10%;
 }
+/* Newsletter */
 
+.newsletter{
+    padding: 50px 0px 40px;
+    background: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+.newsletter h2{
+    margin: 20px 0 15px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.newsletter p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 16px;
+}
+.newsForm input[type="email"] {
+    width: 100%;
+    max-width: 280px;
+    margin-bottom: 10px;
+}
 /**footer area*/
 .footer-social img {
     height: 20px;
@@ -184,7 +239,24 @@ a.card-title.center-align.product-title:hover {
 ul.footer-social li {
     display: inline-block;
 }
+.mainFooterTop{
+    padding: 30px 0 10px;
+    border-bottom: 1px solid #ddd;
+}
+.mainFooterTop ul li a{
+    font-weight: 400;
 
+}
+.mainFooterTop h4{
+    text-transform: uppercase;
+}
+.paymentShipping{
+        margin-top: 15px;
+}
+.footer-copyright p{
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 /***start**/
 
