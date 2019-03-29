@@ -200,11 +200,8 @@ ul.footer-social li {
 }
 
 /***end**/
-
-
 .dropdown-content{
-    /* width: 100%; */
-    width: 1348px!important;
+    width: 100%!important;
     display: block;
     position: absolute;
     left: 0px!important;
