@@ -141,7 +141,6 @@
                 </ul>
 
 
-
             </div>
             <!--Sticky Sidebar 1 End -->
 
@@ -160,8 +159,8 @@
 
                             <a class="card-title center-align product-title" href="#">Card Title</a>
                             <div class="col l12 quick-cart-option"
-                                style="position: absolute;left: 0;top: 0;width: 100%;height: 100%;border: 10px solid #ACACAD;padding: 15px;background: rgba(255,255,255,0.9); display: none;z-index: 999;" >
-                                
+                                style="position: absolute;left: 0;top: 0;width: 100%;height: 100%;border: 10px solid #ACACAD;padding: 15px;background: rgba(255,255,255,0.9); display: none;z-index: 999;">
+
 
 
 
@@ -178,29 +177,38 @@
                                         </div>
                                     </div>
                                     <div class="row center-align product-size mt10">
-                                        <span class="active ml3">S</span>
+                                            <!-- <select> -->
+                                                    <!-- <option>l<span class="ml3">S</span></option>
+                                                    <option>l<span class="ml3">M</span></option>
+                                                    <option><span class="ml3">L</span></option>
+                                                    <option><span class="ml3">Xl</span></option> -->
+                                                    <!-- <option>xl</option>
+                                                 </select> -->
+                                        <span class="ml3">S</span>
                                         <span class="ml3">M</span>
                                         <span class="ml3">L</span>
                                         <span class="ml3">Xl</span>
                                         <span>XXL</span>
                                     </div>
-                              
+
                                     <div class="row center-align pt20">
                                         <div class="col l10 p0"> <a class="waves-effect waves-light btn black"
                                                 style="width: 230px;;">Add to cart</a></div>
                                         <div class="col l2 p0" style="border: 1px solid black;cursor: pointer;">
-                                            <i class="far fa-heart small p2 cart-favourite-first" ></i>
-                                            <i class="fas fa-heart small p2 cart-favourite-last" style="display:none;"></i>
+                                            <i class="far fa-heart small p2 cart-favourite-first"></i>
+                                            <i class="fas fa-heart small p2 cart-favourite-last"
+                                                style="display:none;"></i>
                                         </div>
-                    
-                    
+
+
                                         <!-- <i class="fas fa-heart"></i> -->
                                     </div>
-                    
+
                                 </div>
 
 
-                                    <span class="quick-option-close" style="position:absolute;top:10px;right:10px;cursor:pointer;">X</span>
+                                <span class="quick-option-close"
+                                    style="position:absolute;top:10px;right:10px;cursor:pointer;">X</span>
                             </div>
                         </div>
 
@@ -393,7 +401,13 @@
         <!-- Custom JavaScript -->
         <script src="../js/main.js"></script>
         <script>
-
+            $(document).ready(function () {
+                $(".product-size span").click(function () {
+                    $(this).toggleClass("active");
+                });
+                
+            });
+           
         </script>
 </body>
 

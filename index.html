@@ -65,10 +65,74 @@
                             class="responsive-img" style="max-height: 40px;" alt=""></a></div>
                 <div class="col s8 l8 navbar-menu-area">
                     <ul class="hide-on-med-and-down">
-                        <li><a href="index.html">ALL</a></li>
+                        <li>
+                            <!-- <a href="index.html">ALL</a> -->
+
+                            <a class='dropdown-trigger' href='#' data-target='megamenu'>ALL</a>
+
+                            <!-- Dropdown Structure -->
+                            <ul id='megamenu' class='dropdown-content' style="width:100%!important;">
+                                <!-- <li><a href="#!">onemore khana </a></li>
+                                <li><a href="#!">two</a></li>
+                                <li class="divider" tabindex="-1"></li>
+                                <li><a href="#!">three</a></li>
+                                <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+                                <li><a href="#!"><i class="material-icons">cloud</i>five</a></li> -->
 
 
 
+
+
+
+                                <div class="row">
+                                        <div class="col s3 m3 l3 lft-border">
+                                            <!-- List Item -->
+                                            <li class="title"><a href="#">ELECTRONICS</a></li>
+                                            <li><a href="#">Smart Phone</a></li>
+                                            <li><a href="#">Laptop</a></li>
+                                            <li><a href="#">LCD/LED TV</a></li>
+                                            <li><a href="#">Mac Computer</a></li>
+                                        </div>
+                                        <div class="col s3 m3 l3">
+                                            <!-- List Item -->
+                                            <li class="title"><a href="#">MEN WEAR</a></li>
+                                            <li><a href="#">Formal Shirt</a></li>
+                                            <li><a href="#">Denim Jeans</a></li>
+                                            <li><a href="#">Sport Shoes</a></li>
+                                            <li><a href="#">Duke Tshirt</a></li>
+                                        </div>
+                                        <div class="col s3 m3 l3">
+                                            <!-- List Item -->
+                                            <li class="title"><a href="#">MEN WEAR</a></li>
+                                            <li><a href="#">Formal Shirt</a></li>
+                                            <li><a href="#">Denim Jeans</a></li>
+                                            <li><a href="#">Sport Shoes</a></li>
+                                            <li><a href="#">Duke Tshirt</a></li>
+                                        </div>
+                                        <div class="col s3 m3 l3">
+                                            <!-- List Item -->
+                                            <li class="title"><a href="#">MEN WEAR</a></li>
+                                            <li><a href="#">Formal Shirt</a></li>
+                                            <li><a href="#">Denim Jeans</a></li>
+                                            <li><a href="#">Sport Shoes</a></li>
+                                            <li><a href="#">Duke Tshirt</a></li>
+                                        </div>
+                                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            </ul>
+                        </li>
                         <li><a href="about.html">NEW RELEASES</a></li>
                         <li><a href="contact.html">MENS</a></li>
                         <li><a href="notice.html">WOMENS</a></li>
@@ -224,18 +288,21 @@
     </footer>
 
 
-    <!-- <div class="card-image product-card" >
-                <img src="img/home/AthleticRange_SquareBanner2.jpg" class="responsive-img"alt="Card Back">
-                <img src="img/home/CoreTracksuit_SquareBanner1.jpg" class="img-top responsive-img" alt="Card Front">
-              
-              <a class="card-title center-align product-title" href="#" style="">Card Title</a>
-            </div> -->
-
     <!-- Compiled and minified JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="./js/materialize.min.js"></script>
     <!-- Custom JavaScript -->
     <script src="./js/main.js"></script>
+    <script>
+        $(".dropdown-trigger").dropdown({
+            inDuration: 300,
+            outDuration: 225,
+            // hover: true,
+            constrainWidth: false,
+            // belowOrigin: true,
+            alignment: 'center'
+        });
+    </script>
 </body>
 
 </html>
